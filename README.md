@@ -1,8 +1,11 @@
 # Slate_JS
- Create complex SVG elements with JavaScript!
+Create complex SVG elements with JavaScript!
 
+# TODO:
+- [ ] - Add a resposive predefined Grid generator.
+- [ ] - Add a responsive mouse coordinate.
 
-
+# License
 This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
