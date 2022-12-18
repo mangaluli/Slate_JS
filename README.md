@@ -2,8 +2,12 @@
 Create complex SVG elements with JavaScript!
 
 # TODO:
-- [ ] - Add a resposive predefined Grid generator.
-- [ ] - Add a responsive mouse coordinate.
+- ## Working on it.
+  - - [ ] - Add a resposive predefined Grid generator.
+  - - [ ] - Add a responsive mouse coordinate.
+
+- ## Maybe:
+  - - [ ] - Interactable svg elements, like showing coordinates of the hoverd point on a graph.
 
 # License
 This is free and unencumbered software released into the public domain.
