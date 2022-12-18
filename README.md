@@ -1,12 +1,10 @@
 # Slate_JS
 
-- ### Description:
-  - Create complex SVG elements with JavaScript!
-  - I just wanted to make a graph with SVG but ended up making this..
-
-- ### About
-  - I took alot of inspiration from [Processing](https://processing.org/) which uses a Canvas element which is more like a traditional image with pixels, and it show's when you write the code.
-  - But it doesn't work the same there is no loop so it can't be animated (YET!). \n For now it's mainly for making a static SVG.
+### Description:
+- Create complex SVG elements with JavaScript!
+- I just wanted to make a graph with SVG but ended up making this..
+- I took alot of inspiration from [Processing](https://processing.org/) which uses a Canvas element which is more like a traditional image with pixels, and it show's when you write the code.
+- But it doesn't work the same there is no loop so it can't be animated (YET!). \n For now it's mainly for making a static SVG.
 
 ### Advantages
 #### 1. Scale.
@@ -56,6 +54,21 @@
       - as you can see it's red because we defined the fill color as red at Line 8.
       - `slate.render();`
       - The main function that Generates the SVG element and its chilren and appends it to the "<slate>" element.
+  
+## Chatsheet.
+### Shapes:
+#### *Rectangle*
+- `.rect(x, y, width, height);`
+- ![image](https://user-images.githubusercontent.com/84743239/208318818-eed0349f-2eb7-4b16-b203-8921928fed51.png)
+- ![image](https://user-images.githubusercontent.com/84743239/208319008-d6830045-b2ff-4e3b-a670-b0557faa98c4.png)
+  
+#### *Circle*
+- `.circle(cx, cy, r)`
+- ![image](https://user-images.githubusercontent.com/84743239/208319227-3292fc3b-1d49-4d08-b036-a37af97ad655.png)
+- ![image](https://user-images.githubusercontent.com/84743239/208319251-0c985db0-4cc3-4ada-93e6-6f1fda470050.png)
+  
+#### *Ellipse*
+  
 
 # TODO:
 - ## Working on it.
