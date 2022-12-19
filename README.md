@@ -30,85 +30,79 @@
 
 # Try it out!
 ### CDN:
-  - `<script src="https://cdn.jsdelivr.net/gh/mangaluli/Slate_JS@main/slate.js"></script>`
+- `<script src="https://cdn.jsdelivr.net/gh/mangaluli/Slate_JS@main/slate.js"></script>`
 
 ## Quick start.
-  - We start by adding a "\<slate>\</slate>" Tag in our HTML.
-    - ![image](https://user-images.githubusercontent.com/84743239/208310770-81647031-7f1d-4c8c-ab36-951d2e49e20f.png)
-    - The <slate> tag is the target to which the code will draw to.
-    - If you want to size it, You'll want to wrap <slate> and style the wrapper.
+- We start by adding a "\<slate>\</slate>" Tag in our HTML.
+  - ![image](https://user-images.githubusercontent.com/84743239/208310770-81647031-7f1d-4c8c-ab36-951d2e49e20f.png)
+  - The <slate> tag is the target to which the code will draw to.
+  - If you want to size it, You'll want to wrap <slate> and style the wrapper.
   
-  - Now in our code, let's start by defining a new Slate object and drawing a red rectangle!
-    - ![image](https://user-images.githubusercontent.com/84743239/208311100-451d176a-ad63-4622-9b1b-9590ea473f3d.png)
-  - We will get this:
-    - ![image](https://user-images.githubusercontent.com/84743239/208311692-5b2bd030-2087-4ce2-bd21-ce6a51c478f2.png)
-    - The code is preety self explaniroty but let me explain it in depth:
-      - `let slate = new Slate(0, 0, 100, 100);`
-      - We defined a new Slate object under the "slate" alies.
-      - `slate.background('white');`
-      - We set the background color of the main SVG element.
-      - `slate.fill('red');`
-      - We define the fill color of the svg element's to come after this line. We save that value in memory and each time we add a new shape to the SVG it get it's fill value from memory. Which makes it more organized.
-      - `slate.rect(20, 30, 20, 20);`
-      - We add a rectangle at point 20,30 of width and height of 20.
-      - as you can see it's red because we defined the fill color as red at Line 8.
-      - `slate.render();`
-      - The main function that Generates the SVG element and its chilren and appends it to the "<slate>" element.
+- Now in our code, let's start by defining a new Slate object and drawing a red rectangle!
+  - ![image](https://user-images.githubusercontent.com/84743239/208311100-451d176a-ad63-4622-9b1b-9590ea473f3d.png)
+- We will get this:
+  - ![image](https://user-images.githubusercontent.com/84743239/208311692-5b2bd030-2087-4ce2-bd21-ce6a51c478f2.png)
+  - The code is preety self explaniroty but let me explain it in depth:
+    - `let slate = new Slate(0, 0, 100, 100);`
+    - We defined a new Slate object under the "slate" alies.
+    - `slate.background('white');`
+    - We set the background color of the main SVG element.
+    - `slate.fill('red');`
+    - We define the fill color of the svg element's to come after this line. We save that value in memory and each time we add a new shape to the SVG it get it's fill value from memory. Which makes it more organized.
+    - `slate.rect(20, 30, 20, 20);`
+    - We add a rectangle at point 20,30 of width and height of 20.
+    - as you can see it's red because we defined the fill color as red at Line 8.
+    - `slate.render();`
+    - The main function that Generates the SVG element and its chilren and appends it to the "<slate>" element.
   
-## Chatsheet.
-### Shapes:
-#### *Rectangle*
-- `.rect(x, y, width, height);`
-- ![image](https://user-images.githubusercontent.com/84743239/208318818-eed0349f-2eb7-4b16-b203-8921928fed51.png)
-- ![image](https://user-images.githubusercontent.com/84743239/208319008-d6830045-b2ff-4e3b-a670-b0557faa98c4.png)
+# Chatsheet.
   
-#### *Circle*
-- `.circle(cx, cy, r)`
-- ![image](https://user-images.githubusercontent.com/84743239/208319227-3292fc3b-1d49-4d08-b036-a37af97ad655.png)
-- ![image](https://user-images.githubusercontent.com/84743239/208319251-0c985db0-4cc3-4ada-93e6-6f1fda470050.png)
+## *Rectangle*
+`.rect(x, y, width, height);`
+```javascript
+let slate = new Slate(0, 0, 100, 100);
+
+slate.backgroud('white');
+
+slate.fill('green');
+
+slate.circle(20, 20, 20);
+slate.circle(20, 50, 4);
+
+slate.stroke('purple');
+
+slate.circle(30, 80, 10);
+
+slate.render();
+```
+![image](https://user-images.githubusercontent.com/84743239/208319008-d6830045-b2ff-4e3b-a670-b0557faa98c4.png)
   
-#### *Ellipse*
+## *Circle*
+`.circle(cx, cy, r)`
+```javascript
+let slate = new Slate(0, 0, 100, 100);
+
+slate.backgroud('white');
+
+slate.fill('red');
+
+slate.rect(20, 10, 20, 20);
+slate.rect(20, 40, 40, 20);
+slate.rect(10, 70, 200, 10);
+
+slate.render();
+```
+![image](https://user-images.githubusercontent.com/84743239/208319251-0c985db0-4cc3-4ada-93e6-6f1fda470050.png)
+  
+## *Ellipse*
   
 
 # TODO:
 - ## Working on it.
   - [ ] - Complete this Documentation.
-
 - ## Que.
   - [ ] - Replace Documentation images with animated ones
   - [ ] - Add a resposive predefined Grid generator.
   - [ ] - Add a responsive mouse coordinate.
-  
-
 - ## Maybe:
   - [ ] - Interactable svg elements, like showing coordinates of the hoverd point on a graph.
-
-# Disclaimer
-It's not perfect but its pretty fast and reliable.
-
-
-# License
-This is free and unencumbered software released into the public domain.
-
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
-
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
-
-For more information, please refer to <https://unlicense.org>
