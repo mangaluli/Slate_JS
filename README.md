@@ -56,53 +56,74 @@
     - The main function that Generates the SVG element and its chilren and appends it to the "<slate>" element.
   
 # Chatsheet.
-  
-## *Rectangle*
-`.rect(x, y, width, height);`
-```javascript
-let slate = new Slate(0, 0, 100, 100);
+- ## *Rectangle*
+  `.rect(x, y, width, height);`
+  ```javascript
+  let slate = new Slate(0, 0, 100, 100);
 
-slate.backgroud('white');
+  slate.backgroud('white');
 
-slate.fill('green');
+  slate.fill('green');
 
-slate.circle(20, 20, 20);
-slate.circle(20, 50, 4);
+  slate.circle(20, 20, 20);
+  slate.circle(20, 50, 4);
 
-slate.stroke('purple');
+  slate.stroke('purple');
 
-slate.circle(30, 80, 10);
+  slate.circle(30, 80, 10);
 
-slate.render();
-```
-![image](https://user-images.githubusercontent.com/84743239/208319008-d6830045-b2ff-4e3b-a670-b0557faa98c4.png)
-  
-## *Circle*
-`.circle(cx, cy, r)`
-```javascript
-let slate = new Slate(0, 0, 100, 100);
+  slate.render();
+  ```
+  ![image](https://user-images.githubusercontent.com/84743239/  208319008-d6830045-b2ff-4e3b-a670-b0557faa98c4.png)
+---
+- ## *Circle*
+  <table>
+    <tr>
+      <td style="font-weight: bold; font-size:1.4rem;">
+          .circle(cx, cy, r)
+      </td>
+      <td> 
+        <p>
+          cx - X coordinate of circle center <br> 
+          cy - Y coordinate of circle center <br> 
+          R = Radius.
+        </p> 
+      </td>
+      </tr>
+    <tr>
+  <td>
 
-slate.backgroud('white');
+    ```javascript
+    let slate = new Slate(0, 0, 100, 100);
+    
+    slate.background('white');
+    slate.fill('blue');
+    
+    slate.circle(20, 20, 20);
+    slate.circle(50, 50, 10);
+    slate.circle(30, 80, 5);
+    
+    slate.render();
+    ```
+  </td>
+    <td>
+      <img src="https://user-images.githubusercontent.com/84743239/208547915-bea159ff-9e2e-4e93-a6c8-f4e22e4a78e0.png">
+    </td>
+  </tr>
+  </table>
 
-slate.fill('red');
 
-slate.rect(20, 10, 20, 20);
-slate.rect(20, 40, 40, 20);
-slate.rect(10, 70, 200, 10);
-
-slate.render();
-```
-![image](https://user-images.githubusercontent.com/84743239/208319251-0c985db0-4cc3-4ada-93e6-6f1fda470050.png)
-  
+---
 ## *Ellipse*
   
+---
+# TODO: 
++  ## Working on it.
+- [ ] Complete this Documentation.
 
-# TODO:
-- ## Working on it.
-  - [ ] - Complete this Documentation.
-- ## Que.
-  - [ ] - Replace Documentation images with animated ones
-  - [ ] - Add a resposive predefined Grid generator.
-  - [ ] - Add a responsive mouse coordinate.
-- ## Maybe:
-  - [ ] - Interactable svg elements, like showing coordinates of the hoverd point on a graph.
++ ## Que.
+- [ ]  Replace Documentation images with animated ones
+- [ ]  Add a resposive predefined Grid generator.
+- [ ]  Add a responsive mouse coordinate.
++ ## Maybe:
+- [ ]  Interactable svg elements, like showing coordinates of the hoverd point on a graph.
