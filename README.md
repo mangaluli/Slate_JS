@@ -1,3 +1,5 @@
+# README WIP! (you were warned!)
+
 # Slate_JS
 
 ### Description:
