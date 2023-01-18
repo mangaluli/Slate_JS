@@ -1,6 +1,8 @@
 # README WIP! (you were warned!)
 
 # Slate_JS
+##### (All pictures below were generated using Slate.js ( :) )
+
 
 ### Description:
 - Create complex SVG elements with JavaScript!
@@ -28,7 +30,8 @@
   - ![image](https://user-images.githubusercontent.com/84743239/208309435-9a1b0be6-d64e-424a-988a-201221a09f98.png)
   - So zooming and panning doesn't require any complex math we just change the *viewBox*.
     - Zoom and Pan is already included in the library :)
-
+continued
+#### (TO BE CONTINUED... )
 
 # Try it out!
 ### CDN:
