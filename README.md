@@ -125,11 +125,12 @@ continued
 # TODO: 
 +  ## Working on it.
 - [ ] Complete this Documentation.
-
+- [ ]  Make it FASTER (Always)
+  
 + ## Que.
 - [ ]  Replace Documentation images with animated ones
 - [ ]  Add a resposive predefined Grid generator.
 - [ ]  Add a responsive mouse coordinate.
-- [ ]  Make it FASTER (Obviously)
+
 + ## Maybe:
 - [ ]  Interactable svg elements, like showing coordinates of the hoverd point on a graph.
