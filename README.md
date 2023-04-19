@@ -1,14 +1,12 @@
-# README WIP! (you were warned!)
+# README WIP!
 
 # Slate_JS
-##### (All pictures below were generated using Slate.js ( :) )
+##### (All pictures below were generated using Slate.js)
 
 
 ### Description:
 - Create complex SVG elements with JavaScript!
-- I just wanted to make a graph with SVG but ended up making this..
-- I took alot of inspiration from [Processing](https://processing.org/) which uses a Canvas element which is more like a traditional image with pixels, and it show's when you write the code.
-- But it doesn't work the same there is no loop so it can't be animated (YET!). \n For now it's mainly for making a static SVG.
+- I took alot of inspiration from [Processing](https://processing.org/).
 
 ### Advantages
 #### 1. Scale.
@@ -30,7 +28,6 @@
   - ![image](https://user-images.githubusercontent.com/84743239/208309435-9a1b0be6-d64e-424a-988a-201221a09f98.png)
   - So zooming and panning doesn't require any complex math we just change the *viewBox*.
     - Zoom and Pan is already included in the library :)
-continued
 #### (TO BE CONTINUED... )
 
 # Try it out!
@@ -123,14 +120,9 @@ continued
   
 ---
 # TODO: 
-+  ## Working on it.
-- [ ] Complete this Documentation.
-- [ ]  Make it FASTER (Always)
-  
-+ ## Que.
-- [ ]  Replace Documentation images with animated ones
-- [ ]  Add a resposive predefined Grid generator.
-- [ ]  Add a responsive mouse coordinate.
+
+- [ ]  Better README..
+- [ ]  Add a Grid generator.
 
 + ## Maybe:
-- [ ]  Interactable svg elements, like showing coordinates of the hoverd point on a graph.
+- [ ]  Add mouse interactions.
