@@ -1,6 +1,6 @@
 # README WIP!
 
-# Slate_JS
+# JS to SVG
 ##### (All pictures below were generated using Slate.js)
 
 
