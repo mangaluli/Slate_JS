@@ -1,6 +1,7 @@
 # README WIP!
 
-# JS to SVG
+# SlateJS
+### ( Seems like this name is alreay taken, I wasent trying to infringe, its just the name I came up with 🤷🏻‍♂️. Will be changed! )
 ##### (All pictures below were generated using Slate.js)
 
 
@@ -121,7 +122,8 @@
 ---
 # TODO: 
 
-- [ ]  Better README..
+- [ ]  Think of a new Nave..
+- [ ]  Better README.
 - [ ]  Add a Grid generator.
 
 + ## Maybe:
