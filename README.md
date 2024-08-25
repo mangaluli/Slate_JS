@@ -120,11 +120,3 @@
 ## *Ellipse*
   
 ---
-# TODO: 
-
-- [ ]  Think of a new Nave..
-- [ ]  Better README.
-- [ ]  Add a Grid generator.
-
-+ ## Maybe:
-- [ ]  Add mouse interactions.
