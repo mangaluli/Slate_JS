@@ -1,4 +1,4 @@
-# README WIP!
+#WIP
 
 # SlateJS
 ### ( Seems like this name is alreay taken, I wasent trying to infringe, its just the name I came up with 🤷🏻‍♂️. Will be changed! )
